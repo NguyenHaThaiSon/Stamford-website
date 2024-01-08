@@ -4,8 +4,10 @@ import { renderEventCalendar } from "./event-calendar.js";
 import { renderFormsAndLinks } from "./forms-and-links.js";
 import { renderHeader } from "./header.js";
 import { event } from "../data/event-calendar-log.js";
+import { changeTheme } from "./change-theme.js";
 
 renderHeader();
+changeTheme();
 renderNavBar();
 renderAnnouncementList();
 renderEventCalendar();
